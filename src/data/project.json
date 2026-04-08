@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Weather Mood",
+    "type": "Mobile App",
+    "skills": ["Figma", "Html", "Css", "JavaScript"],
+    "img": "./image/project/weather-mood.png",
+    "github": "https://github.com/duajd3-lab/Weather-Mood/tree/won",
+     "link": "https://duajd3-lab.github.io/Weather-Mood/"
+  },
+  {
+    "id": 1,
+    "title": "Weather Mood",
+    "type": "Mobile App",
+    "skills": ["Figma", "Html", "Css", "JavaScript"],
+    "img": "./image/project/weather-mood.png",
+    "github": "https://github.com/duajd3-lab/Weather-Mood/tree/won",
+     "link": "https://duajd3-lab.github.io/Weather-Mood/"
+  },
+  {
+    "id": 1,
+    "title": "Weather Mood",
+    "type": "Mobile App",
+    "skills": ["Figma", "Html", "Css", "JavaScript"],
+    "img": "./image/project/weather-mood.png",
+    "github": "https://github.com/duajd3-lab/Weather-Mood/tree/won",
+     "link": "https://duajd3-lab.github.io/Weather-Mood/"
+  },
+  {
+    "id": 1,
+    "title": "Weather Mood",
+    "type": "Mobile App",
+    "skills": ["Figma", "Html", "Css", "JavaScript"],
+    "img": "./image/project/weather-mood.png",
+    "github": "https://github.com/duajd3-lab/Weather-Mood/tree/won",
+     "link": "https://duajd3-lab.github.io/Weather-Mood/"
+  }
+]

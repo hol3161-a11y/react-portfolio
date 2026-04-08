@@ -1,0 +1,383 @@
+.aboutDetail {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 300px;
+    margin: 0 auto;
+}
+
+
+.aboutDetail::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+
+    background: url('../public/image/aboutdetail/background_img.png') no-repeat center top;
+    background-size: cover;
+
+    z-index: -1;
+}
+
+
+.intro {
+    position: absolute;
+    top: 280px;
+    left: 270px;
+    width: 658px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.emoji {
+    width: 20%;
+}
+
+.hello {
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.text {
+    width: 63%;
+    height: auto;
+    margin: 200px auto;
+    padding: 0 20px;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 45px;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+.profile-item {
+    text-align: left;
+}
+
+.profile-item p {
+    padding-bottom: 10px;
+}
+
+.profile-item b {
+    color: #4D9FFB;
+}
+
+.contents p {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 8%;
+    padding-bottom: 10px;
+}
+
+.keyword {
+    margin-top: 100px;
+}
+
+.keyword h1 {
+    font-size: 24px;
+    text-decoration: underline;
+    line-height: 37px;
+    letter-spacing: 6%;
+}
+
+.keyword span {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 37px;
+    letter-spacing: 6%;
+    padding: 0 10px;
+}
+
+.skill {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.skill h1 {
+    font-size: 24px;
+    text-decoration: underline;
+    line-height: 37px;
+    letter-spacing: 6%;
+}
+
+.list ul {
+    font-size: 22px;
+    letter-spacing: 6%;
+}
+
+.list h2 {
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 30px 0;
+}
+
+.list p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 6%;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.list b {
+    font-size: 20px;
+    line-height: 37px;
+    letter-spacing: 6%;
+    font-weight: normal;
+    display: inline-block;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.skill-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 20%;
+}
+
+.skill-fill {
+    height: 12px;
+    flex: 1;
+    background: #E5E7EB;
+    border-radius: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.skill-fill::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: inherit;
+    background-color: #a1c7d8;
+    border-radius: 100px;
+}
+
+.skill-percent {
+    min-width: 40px;
+    font-size: 14px;
+    color: #b6b6b6;
+    font-weight: 800;
+}
+
+.education {
+    margin-top: 100px;
+}
+
+.education h1 {
+    font-size: 24px;
+    text-decoration: underline;
+    line-height: 37px;
+    letter-spacing: 6%;
+}
+
+.education p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 60px;
+    letter-spacing: 6%;
+    margin: 0;
+}
+
+.certificaten {
+    margin-top: 100px;
+}
+
+.certificaten h1 {
+    font-size: 24px;
+    text-decoration: underline;
+    line-height: 37px;
+    letter-spacing: 6%;
+}
+
+.certificaten p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 60px;
+    letter-spacing: 6%;
+    margin: 0;
+}
+
+/* =========================
+   ABOUT DETAIL RESPONSIVE
+========================= */
+
+/* DESKTOP SMALL */
+@media (max-width: 1400px) {
+
+    .intro {
+        left: 120px;
+        width: 600px;
+    }
+
+    .text {
+        width: 75%;
+    }
+
+}
+
+
+/* TABLET */
+@media (max-width: 1024px) {
+
+    .aboutDetail {
+        background-size: cover;
+        /* 위쪽만 자연스럽게 채움 */
+        padding: 314px clamp(20px, 5vw, 60px) 0;
+    }
+
+    .intro {
+        position: relative;
+        /* absolute → relative */
+
+        top: auto;
+        left: auto;
+
+        width: 90%;
+        margin: 0 auto 60px;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 16px;
+    }
+
+    .emoji {
+        width: clamp(60px, 12vw, 100px);
+        margin-bottom: 22px;
+    }
+
+    .hello {
+        font-size: clamp(24px, 3vw, 36px);
+        margin-top: 0;
+    }
+
+    .text {
+        width: 90%;
+        height: auto;
+        margin: 100px auto;
+    }
+
+    .profile-info {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .profile-item {
+        min-width: 250px;
+    }
+
+    .skill-bar {
+        width: 50%;
+    }
+
+}
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .aboutDetail {
+        padding-top: 420px;
+        background-size: cover;
+    }
+
+    .intro {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -100px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .emoji {
+        width: 70px;
+    }
+
+    .hello {
+        font-size: 24px;
+        margin-top: 12px;
+    }
+
+    .text {
+        width: 95%;
+        margin: 80px auto;
+    }
+
+    .contents p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .skill-bar {
+        width: 100%;
+    }
+
+    .profile-info {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .profile-item {
+        flex: 1 1 45%;
+    }
+
+}
+
+
+/* SMALL MOBILE */
+@media (max-width: 480px) {
+
+    .aboutDetail {
+        padding-top: 410px;
+    }
+
+    .intro {
+        margin-top: -80px;
+    }
+
+    .emoji {
+        width: 60px;
+    }
+
+    .hello {
+        font-size: 20px;
+    }
+
+    .text {
+        margin: 60px auto;
+    }
+
+    .contents p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .skill-bar {
+        width: 100%;
+    }
+
+    .hero-title p::before,
+    .hero-title p::after {
+        display: none;
+    }
+
+}
