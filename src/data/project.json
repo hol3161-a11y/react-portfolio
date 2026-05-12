@@ -3,36 +3,36 @@
     "id": 1,
     "title": "Weather Mood",
     "type": "모바일 기반 날씨 감성 추천 서비스",
-    "skills": ["Figma", "Html", "Css", "JavaScript"],
-    "img": "./image/project/weather-mood.png",
+    "skills": ["Figma", "HTML", "CSS", "JavaScript"],
+    "img": "/image/project/weather-mood-thumb.png",
     "github": "https://github.com/hol3161-a11y/Team-Weather-Mood",
-     "link": "https://team-weather-mood.vercel.app/"
+    "link": "https://team-weather-mood.vercel.app/"
   },
   {
     "id": 2,
     "title": "Store Pilot",
     "type": "반응형 AI 기반 매장 관리 웹 서비스",
     "skills": ["Next.js", "CRUD", "MongoDB", "NextAuth"],
-    "img": "./image/project/weather-mood.png",
+    "img": "/image/project/store-pilot-thumb.png",
     "github": "https://github.com/hol3161-a11y/Team-StorePilot",
-     "link": "https://team-store-pilot.vercel.app/"
+    "link": "https://team-store-pilot.vercel.app/"
   },
   {
     "id": 3,
     "title": "Portfolio",
     "type": "반응형 프론트엔드 개발자 포트폴리오",
     "skills": ["React", "SCSS", "JavaScript", "Responsive Web"],
-    "img": "./image/project/weather-mood.png",
+    "img": "/image/project/portfolio-thumb.png",
     "github": "https://github.com/hol3161-a11y/react-portfolio",
-     "link": "https://portfolio-yew.vercel.app/"
+    "link": "https://portfolio-yew.vercel.app/"
   },
   {
     "id": 4,
-    "title": "",
-    "type": "",
-    "skills": [],
-    "img": "",
-    "github": "",
-     "link": ""
+    "title": "Todo List",
+    "type": "React 기반 할 일 관리 웹 서비스",
+    "skills": ["React", "CSS", "JavaScript", "CRUD"],
+    "img": "/image/project/todolist-thumb.png",
+    "github": "https://github.com/hol3161-a11y/react-todo",
+    "link": "https://react-todo-vert-ten.vercel.app/"
   }
 ]
