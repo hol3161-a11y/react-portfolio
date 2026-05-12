@@ -2,37 +2,36 @@
   {
     "id": 1,
     "title": "Weather Mood",
-    "type": "Mobile App",
+    "type": "모바일 기반 날씨 감성 추천 서비스",
     "skills": ["Figma", "Html", "Css", "JavaScript"],
     "img": "./image/project/weather-mood.png",
-    "github": "https://github.com/duajd3-lab/Weather-Mood/tree/won",
-     "link": "https://duajd3-lab.github.io/Weather-Mood/"
+    "github": "https://github.com/hol3161-a11y/Team-Weather-Mood",
+     "link": "https://duajd3-lab.github.io/Weather-Mood/index.html"
   },
   {
-    "id": 1,
-    "title": "Weather Mood",
-    "type": "Mobile App",
-    "skills": ["Figma", "Html", "Css", "JavaScript"],
+    "id": 2,
+    "title": "Store Pilot",
+    "type": "반응형 AI 기반 매장 관리 웹 서비스",
+    "skills": ["Next.js", "CRUD", "MongoDB", "NextAuth"],
     "img": "./image/project/weather-mood.png",
-    "github": "https://github.com/duajd3-lab/Weather-Mood/tree/won",
-     "link": "https://duajd3-lab.github.io/Weather-Mood/"
+    "github": "https://github.com/hol3161-a11y/Team-StorePilot",
+     "link": "https://team-store-pilot.vercel.app/"
   },
   {
-    "id": 1,
-    "title": "Weather Mood",
-    "type": "Mobile App",
-    "skills": ["Figma", "Html", "Css", "JavaScript"],
+    "id": 3,
+    "title": "Portfolio",
+    "type": "반응형 프론트엔드 개발자 포트폴리오",
+    "skills": ["React", "SCSS", "JavaScript", "Responsive Web"],
     "img": "./image/project/weather-mood.png",
-    "github": "https://github.com/duajd3-lab/Weather-Mood/tree/won",
-     "link": "https://duajd3-lab.github.io/Weather-Mood/"
+     "link": "https://portfolio-yew.vercel.app/"
   },
   {
-    "id": 1,
-    "title": "Weather Mood",
-    "type": "Mobile App",
-    "skills": ["Figma", "Html", "Css", "JavaScript"],
-    "img": "./image/project/weather-mood.png",
-    "github": "https://github.com/duajd3-lab/Weather-Mood/tree/won",
-     "link": "https://duajd3-lab.github.io/Weather-Mood/"
+    "id": 4,
+    "title": "",
+    "type": "",
+    "skills": [],
+    "img": "",
+    "github": "",
+     "link": ""
   }
 ]
