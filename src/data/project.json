@@ -6,7 +6,7 @@
     "skills": ["Figma", "Html", "Css", "JavaScript"],
     "img": "./image/project/weather-mood.png",
     "github": "https://github.com/hol3161-a11y/Team-Weather-Mood",
-     "link": "https://duajd3-lab.github.io/Weather-Mood/index.html"
+     "link": "https://team-weather-mood.vercel.app/"
   },
   {
     "id": 2,
