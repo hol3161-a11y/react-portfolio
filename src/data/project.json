@@ -34,5 +34,14 @@
     "img": "/image/project/todolist-thumb.png",
     "github": "https://github.com/hol3161-a11y/react-todo",
     "link": "https://react-todo-vert-ten.vercel.app/"
+  },
+  {
+    "id": 5,
+    "title": "Now News",
+    "type": "Vue 기반 실시간 뉴스 검색 웹 서비스",
+    "skills":  ["Vue", "SCSS", "JavaScript", "API"],
+    "img": "/image/project/Now-News-thumb.png",
+    "github": "https://github.com/hol3161-a11y/News",
+    "link": "https://news-beryl.vercel.app/"
   }
 ]
